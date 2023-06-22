@@ -12,6 +12,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/y0unghe/core-sdk.git"
+  },
   "scripts": {
     "lint": "tsdx lint src test",
     "build": "tsdx build",

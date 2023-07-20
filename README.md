@@ -11,8 +11,8 @@ npm publish --access public
 Publish updated packages:
 
 ```
-yarn // install again
-yarn build
+yarn // if failed use npm
+yarn build // if failed use npm run build
 npm update @y0unghe/core-sdk
 npm publish
 ```

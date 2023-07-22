@@ -27,6 +27,7 @@ export const NATIVE: NativeMap = {
   [ChainId.ROPSTEN]: Ether.onChain(ChainId.ROPSTEN),
   [ChainId.RINKEBY]: Ether.onChain(ChainId.RINKEBY),
   [ChainId.GÖRLI]: Ether.onChain(ChainId.GÖRLI),
+  [ChainId.BASE_GOERLI]: Ether.onChain(ChainId.BASE_GOERLI),
   [ChainId.KOVAN]: Ether.onChain(ChainId.KOVAN),
   [ChainId.FANTOM]: Fantom.onChain(ChainId.FANTOM),
   [ChainId.FANTOM_TESTNET]: Fantom.onChain(ChainId.FANTOM_TESTNET),

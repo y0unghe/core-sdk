@@ -24,3 +24,13 @@ yarn build // if failed use npm run build
 npm update @y0unghe/core-sdk
 npm publish
 ```
+
+```
+npm run build && npm update @y0unghe/core-sdk && npm publish
+```
+
+## Error: Cannot find module 'src/entities/Native/Shibarium'
+
+如果在`entities/Native`目录下新建了Native Token。那么要在`src/constants/natives.ts`里导入
+
+`import {Shibarium} from '../entities/Native'``

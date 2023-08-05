@@ -1,6 +1,7 @@
 // Native exports
 export { Avalanche } from './Avalanche'
 export { Binance } from './Binance'
+export { Shibarium } from './Shibarium'
 export { Celo } from './Celo'
 export { Ether } from './Ether'
 export { Fantom } from './Fantom'

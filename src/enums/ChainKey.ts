@@ -12,6 +12,7 @@ export enum ChainKey {
   FUSE = 'fuse',
   GÖRLI = 'goerli',
   BASE_GOERLI = 'base-goerli',
+  SHIBARIUM_PUPPY = 'shibarium-puppy',
   HARMONY = 'harmony',
   HARMONY_TESTNET = 'harmony-testnet',
   HECO = 'heco',

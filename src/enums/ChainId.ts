@@ -4,6 +4,7 @@ export enum ChainId {
   RINKEBY = 4,
   GÖRLI = 5,
   BASE_GOERLI = 84531,
+  SHIBARIUM_PUPPY = 719,
   KOVAN = 42,
   MATIC = 137,
   MATIC_TESTNET = 80001,

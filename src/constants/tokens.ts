@@ -203,4 +203,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
   [ChainId.KAVA]: new Token(ChainId.KAVA, SUSHI_ADDRESS[ChainId.KAVA], 18, 'SUSHI', 'SushiToken'),
   [ChainId.METIS]: new Token(ChainId.METIS, SUSHI_ADDRESS[ChainId.METIS], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, SUSHI_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'MOCHA', 'MochaToken'),
 }

@@ -36,4 +36,5 @@ export enum ChainKey {
   METIS = 'metis',
   ARBITRUM_NOVA = 'arbitrum-nova',
   BOBA_AVAX = 'boba-avax',
+  SCROLL_SEPOLIA = 'scroll-sepolia'
 }

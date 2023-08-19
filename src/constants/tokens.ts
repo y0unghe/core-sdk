@@ -34,6 +34,7 @@ export const USD: TokenMap = {
   [ChainId.CELO]: new Token(ChainId.CELO, USD_ADDRESS[ChainId.CELO], 18, 'cUSD', 'Celo Dollar'),
 }
 
+// @note WETH9 Token
 export const WETH9: TokenMap = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, WETH9_ADDRESS[ChainId.ETHEREUM], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, WETH9_ADDRESS[ChainId.ROPSTEN], 18, 'WETH', 'Wrapped Ether'),
@@ -78,8 +79,10 @@ export const WETH9: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
 }
 
+// @note WNATIVE Token
 export const WNATIVE: TokenMap = {
   [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM],
   [ChainId.ROPSTEN]: WETH9[ChainId.ROPSTEN],
@@ -177,6 +180,7 @@ export const WNATIVE: TokenMap = {
   [ChainId.METIS]: new Token(ChainId.METIS, WNATIVE_ADDRESS[ChainId.METIS], 18, 'WMETIS', 'Wrapped Metis'),
   [ChainId.ARBITRUM_NOVA]: WETH9[ChainId.ARBITRUM_NOVA],
   [ChainId.BOBA_AVAX]: new Token(ChainId.BOBA_AVAX, WNATIVE_ADDRESS[ChainId.BOBA_AVAX], 18, 'WBOBA', 'Wrapped Boba'),
+  [ChainId.SCROLL_SEPOLIA]: WETH9[ChainId.SCROLL_SEPOLIA],
 }
 
 export const SUSHI: ChainTokenMap = {

@@ -96,6 +96,13 @@ export const WNATIVE: TokenMap = {
     'WBONE',
     'Wrapped Bone'
   ),
+  [ChainId.SHIBARIUM]: new Token(
+    ChainId.SHIBARIUM,
+    WETH9_ADDRESS[ChainId.SHIBARIUM],
+    18,
+    'WBONE',
+    'Wrapped Bone'
+  ),
   [ChainId.KOVAN]: WETH9[ChainId.KOVAN],
   [ChainId.OPTIMISM]: WETH9[ChainId.OPTIMISM],
   [ChainId.FANTOM]: new Token(ChainId.FANTOM, WNATIVE_ADDRESS[ChainId.FANTOM], 18, 'WFTM', 'Wrapped FTM'),
@@ -208,4 +215,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.KAVA]: new Token(ChainId.KAVA, SUSHI_ADDRESS[ChainId.KAVA], 18, 'SUSHI', 'SushiToken'),
   [ChainId.METIS]: new Token(ChainId.METIS, SUSHI_ADDRESS[ChainId.METIS], 18, 'SUSHI', 'SushiToken'),
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, SUSHI_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'MOCHA', 'MochaToken'),
+  [ChainId.SHIBARIUM]: new Token(ChainId.SHIBARIUM, SUSHI_ADDRESS[ChainId.SHIBARIUM], 18, 'MOCHA', 'MochaToken'),
 }

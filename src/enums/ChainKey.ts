@@ -37,5 +37,6 @@ export enum ChainKey {
   ARBITRUM_NOVA = 'arbitrum-nova',
   BOBA_AVAX = 'boba-avax',
   SCROLL_SEPOLIA = 'scroll-sepolia',
-  SHIBARIUM = 'shibarium'
+  SHIBARIUM = 'shibarium',
+  MANTA_TESTNET = 'manta-testnet'
 }

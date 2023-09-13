@@ -38,5 +38,7 @@ export enum ChainKey {
   BOBA_AVAX = 'boba-avax',
   SCROLL_SEPOLIA = 'scroll-sepolia',
   SHIBARIUM = 'shibarium',
-  MANTA_TESTNET = 'manta-testnet'
+  MANTA_TESTNET = 'manta-testnet',
+  MANTA = 'manta'
+
 }

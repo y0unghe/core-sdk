@@ -38,6 +38,7 @@ export const USD: TokenMap = {
 export const WETH9: TokenMap = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, WETH9_ADDRESS[ChainId.ETHEREUM], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MANTA_TESTNET]: new Token(ChainId.MANTA_TESTNET, WETH9_ADDRESS[ChainId.MANTA_TESTNET], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.MANTA]: new Token(ChainId.MANTA, WETH9_ADDRESS[ChainId.MANTA], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, WETH9_ADDRESS[ChainId.ROPSTEN], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, WETH9_ADDRESS[ChainId.RINKEBY], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, WETH9_ADDRESS[ChainId.GÖRLI], 18, 'WETH', 'Wrapped Ether'),
@@ -105,6 +106,7 @@ export const WNATIVE: TokenMap = {
     'Wrapped Bone'
   ),
   [ChainId.MANTA_TESTNET]: WETH9[ChainId.MANTA_TESTNET],
+  [ChainId.MANTA]: WETH9[ChainId.MANTA],
   [ChainId.KOVAN]: WETH9[ChainId.KOVAN],
   [ChainId.OPTIMISM]: WETH9[ChainId.OPTIMISM],
   [ChainId.FANTOM]: new Token(ChainId.FANTOM, WNATIVE_ADDRESS[ChainId.FANTOM], 18, 'WFTM', 'Wrapped FTM'),
@@ -219,4 +221,6 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, SUSHI_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'MOCHA', 'MochaToken'),
   [ChainId.SHIBARIUM]: new Token(ChainId.SHIBARIUM, SUSHI_ADDRESS[ChainId.SHIBARIUM], 18, 'MOCHA', 'MochaToken'),
   [ChainId.MANTA_TESTNET]: new Token(ChainId.MANTA_TESTNET, SUSHI_ADDRESS[ChainId.MANTA_TESTNET], 18, 'MOCHA', 'MochaToken'),
+  [ChainId.MANTA]: new Token(ChainId.MANTA, SUSHI_ADDRESS[ChainId.MANTA], 18, 'MOCHA', 'MochaToken'),
+
 }

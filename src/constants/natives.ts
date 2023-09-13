@@ -32,6 +32,7 @@ export const NATIVE: NativeMap = {
   [ChainId.SHIBARIUM_PUPPY]: Shibarium.onChain(ChainId.SHIBARIUM_PUPPY),
   [ChainId.SHIBARIUM]: Shibarium.onChain(ChainId.SHIBARIUM),
   [ChainId.MANTA_TESTNET]: Ether.onChain(ChainId.MANTA_TESTNET),
+  [ChainId.MANTA]: Ether.onChain(ChainId.MANTA),
   [ChainId.KOVAN]: Ether.onChain(ChainId.KOVAN),
   [ChainId.FANTOM]: Fantom.onChain(ChainId.FANTOM),
   [ChainId.FANTOM_TESTNET]: Fantom.onChain(ChainId.FANTOM_TESTNET),

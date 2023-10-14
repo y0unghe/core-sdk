@@ -98,6 +98,13 @@ export const WNATIVE: TokenMap = {
     'WBONE',
     'Wrapped Bone'
   ),
+  [ChainId.ZETA_TESTNET]: new Token(
+    ChainId.ZETA_TESTNET,
+    WETH9_ADDRESS[ChainId.ZETA_TESTNET],
+    18,
+    'WZETA',
+    'Wrapped aZETA'
+  ),
   [ChainId.SHIBARIUM]: new Token(
     ChainId.SHIBARIUM,
     WETH9_ADDRESS[ChainId.SHIBARIUM],
@@ -201,6 +208,7 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, SUSHI_ADDRESS[ChainId.GÖRLI], 18, 'MOCHA', 'MochaToken'),
   [ChainId.BASE_GOERLI]: new Token(ChainId.BASE_GOERLI, SUSHI_ADDRESS[ChainId.BASE_GOERLI], 18, 'MOCHA', 'MochaToken'),
   [ChainId.SHIBARIUM_PUPPY]: new Token(ChainId.SHIBARIUM_PUPPY, SUSHI_ADDRESS[ChainId.SHIBARIUM_PUPPY], 18, 'MOCHA', 'MochaToken'),
+  [ChainId.ZETA_TESTNET]: new Token(ChainId.ZETA_TESTNET, SUSHI_ADDRESS[ChainId.ZETA_TESTNET], 18, 'MOCHA', 'MochaToken'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, SUSHI_ADDRESS[ChainId.KOVAN], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MATIC]: new Token(ChainId.MATIC, SUSHI_ADDRESS[ChainId.MATIC], 18, 'SUSHI', 'SushiToken'),
   [ChainId.FANTOM]: new Token(ChainId.FANTOM, SUSHI_ADDRESS[ChainId.FANTOM], 18, 'SUSHI', 'SushiToken'),

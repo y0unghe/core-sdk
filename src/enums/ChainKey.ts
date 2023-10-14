@@ -39,6 +39,6 @@ export enum ChainKey {
   SCROLL_SEPOLIA = 'scroll-sepolia',
   SHIBARIUM = 'shibarium',
   MANTA_TESTNET = 'manta-testnet',
-  MANTA = 'manta'
-
+  MANTA = 'manta',
+  ZETA_TESTNET = 'zeta-testnet'
 }

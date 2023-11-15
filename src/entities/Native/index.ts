@@ -19,3 +19,4 @@ export { Kava } from './Kava'
 export { Metis } from './Metis'
 export { Boba } from './Boba'
 export { Zeta } from './Zeta'
+export { X1 } from "./X1";

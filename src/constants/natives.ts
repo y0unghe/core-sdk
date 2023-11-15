@@ -18,7 +18,8 @@ import {
   Metis,
   Boba,
   Shibarium,
-  Zeta
+  Zeta,
+  X1
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -32,6 +33,7 @@ export const NATIVE: NativeMap = {
   [ChainId.BASE_GOERLI]: Ether.onChain(ChainId.BASE_GOERLI),
   [ChainId.SHIBARIUM_PUPPY]: Shibarium.onChain(ChainId.SHIBARIUM_PUPPY),
   [ChainId.ZETA_TESTNET]: Zeta.onChain(ChainId.ZETA_TESTNET),
+  [ChainId.X1_TESTNET]: X1.onChain(ChainId.X1_TESTNET),
   [ChainId.SHIBARIUM]: Shibarium.onChain(ChainId.SHIBARIUM),
   [ChainId.MANTA_TESTNET]: Ether.onChain(ChainId.MANTA_TESTNET),
   [ChainId.MANTA]: Ether.onChain(ChainId.MANTA),

@@ -82,11 +82,14 @@ export const WETH9: TokenMap = {
     'Wrapped Ether'
   ),
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.BLAST_TESTNET]: new Token(ChainId.BLAST_TESTNET, WETH9_ADDRESS[ChainId.BLAST_TESTNET], 18, 'WETH', 'Wrapped Ether'),
+
 }
 
 // @note WNATIVE Token
 export const WNATIVE: TokenMap = {
   [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM],
+  [ChainId.BLAST_TESTNET]: WETH9[ChainId.BLAST_TESTNET],
   [ChainId.ROPSTEN]: WETH9[ChainId.ROPSTEN],
   [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY],
   [ChainId.GÖRLI]: WETH9[ChainId.GÖRLI],
@@ -238,5 +241,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MANTA_TESTNET]: new Token(ChainId.MANTA_TESTNET, SUSHI_ADDRESS[ChainId.MANTA_TESTNET], 18, 'MOCHA', 'MochaToken'),
   [ChainId.MANTA]: new Token(ChainId.MANTA, SUSHI_ADDRESS[ChainId.MANTA], 18, 'MOCHA', 'MochaToken'),
   [ChainId.X1_TESTNET]: new Token(ChainId.X1_TESTNET, SUSHI_ADDRESS[ChainId.X1_TESTNET], 18, 'MOCHA', 'MochaToken'),
-
+  [ChainId.BLAST_TESTNET]: new Token(ChainId.BLAST_TESTNET, SUSHI_ADDRESS[ChainId.BLAST_TESTNET], 18, 'MOCHA', 'MochaToken'),
 }

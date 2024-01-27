@@ -68,5 +68,6 @@ export const NATIVE: NativeMap = {
   [ChainId.ARBITRUM_NOVA]: Ether.onChain(ChainId.ARBITRUM_NOVA),
   [ChainId.BOBA_AVAX]: Boba.onChain(ChainId.BOBA_AVAX),
   [ChainId.SCROLL_SEPOLIA]: Ether.onChain(ChainId.SCROLL_SEPOLIA),
-  [ChainId.BLAST_TESTNET]: Ether.onChain(ChainId.BLAST_TESTNET)
+  [ChainId.BLAST_TESTNET]: Ether.onChain(ChainId.BLAST_TESTNET),
+  [ChainId.TAIKO_TESTNET]: Ether.onChain(ChainId.TAIKO_TESTNET)
 }

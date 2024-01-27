@@ -42,5 +42,6 @@ export enum ChainKey {
   MANTA = 'manta',
   ZETA_TESTNET = 'zeta-testnet',
   X1_TESTNET = 'x1-testnet',
-  BLAST_TESTNET = 'blast-testnet'
+  BLAST_TESTNET = 'blast-testnet',
+  TAIKO_TESTNET = 'taiko-testnet'
 }

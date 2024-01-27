@@ -83,12 +83,13 @@ export const WETH9: TokenMap = {
   ),
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.BLAST_TESTNET]: new Token(ChainId.BLAST_TESTNET, WETH9_ADDRESS[ChainId.BLAST_TESTNET], 18, 'WETH', 'Wrapped Ether'),
-
+  [ChainId.TAIKO_TESTNET]: new Token(ChainId.TAIKO_TESTNET, WETH9_ADDRESS[ChainId.TAIKO_TESTNET], 18, 'WETH', 'Wrapped Ether'),
 }
 
 // @note WNATIVE Token
 export const WNATIVE: TokenMap = {
   [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM],
+  [ChainId.TAIKO_TESTNET]: WETH9[ChainId.TAIKO_TESTNET],
   [ChainId.BLAST_TESTNET]: WETH9[ChainId.BLAST_TESTNET],
   [ChainId.ROPSTEN]: WETH9[ChainId.ROPSTEN],
   [ChainId.RINKEBY]: WETH9[ChainId.RINKEBY],
@@ -208,7 +209,7 @@ export const WNATIVE: TokenMap = {
   [ChainId.METIS]: new Token(ChainId.METIS, WNATIVE_ADDRESS[ChainId.METIS], 18, 'WMETIS', 'Wrapped Metis'),
   [ChainId.ARBITRUM_NOVA]: WETH9[ChainId.ARBITRUM_NOVA],
   [ChainId.BOBA_AVAX]: new Token(ChainId.BOBA_AVAX, WNATIVE_ADDRESS[ChainId.BOBA_AVAX], 18, 'WBOBA', 'Wrapped Boba'),
-  [ChainId.SCROLL_SEPOLIA]: WETH9[ChainId.SCROLL_SEPOLIA],
+  [ChainId.SCROLL_SEPOLIA]: WETH9[ChainId.SCROLL_SEPOLIA]
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -242,4 +243,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MANTA]: new Token(ChainId.MANTA, SUSHI_ADDRESS[ChainId.MANTA], 18, 'MOCHA', 'MochaToken'),
   [ChainId.X1_TESTNET]: new Token(ChainId.X1_TESTNET, SUSHI_ADDRESS[ChainId.X1_TESTNET], 18, 'MOCHA', 'MochaToken'),
   [ChainId.BLAST_TESTNET]: new Token(ChainId.BLAST_TESTNET, SUSHI_ADDRESS[ChainId.BLAST_TESTNET], 18, 'MOCHA', 'MochaToken'),
+  [ChainId.TAIKO_TESTNET]: new Token(ChainId.TAIKO_TESTNET, SUSHI_ADDRESS[ChainId.TAIKO_TESTNET], 18, 'MOCHA', 'MochaToken'),
 }

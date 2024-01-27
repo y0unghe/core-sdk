@@ -45,5 +45,6 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.SCROLL_SEPOLIA]: ChainKey.SCROLL_SEPOLIA,
   [ChainId.MANTA_TESTNET]: ChainKey.MANTA_TESTNET,
   [ChainId.MANTA]: ChainKey.MANTA,
-  [ChainId.BLAST_TESTNET]: ChainKey.BLAST_TESTNET
+  [ChainId.BLAST_TESTNET]: ChainKey.BLAST_TESTNET,
+  [ChainId.TAIKO_TESTNET]: ChainKey.TAIKO_TESTNET
 }

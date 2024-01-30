@@ -35,4 +35,9 @@ npm run build && npm update @y0unghe/core-sdk && npm publish
 
 `import {Shibarium} from '../entities/Native'``
 
-如果提示找不到`Native/Zeta`，那么需要在``/Native/index.ts`里面导入`export { Zeta } from './Zeta'`
+如果提示找不到`Native/Zeta`，那么需要在`src/entities/Native/index.ts`里面导入`export { Zeta } from './Zeta'`
+
+在`src/constants/native.ts`下面如果有类似`import { Shardeum } from 'src/entities/Native/Shardeum'`
+那么需要删除掉，这样interface那边会报错: `Error: Cannot find module 'src/entities/Native/Shardeum'`
+
+正确的做法是，update `import {Shibarium} from '../entities/Native'` 添加在这里面

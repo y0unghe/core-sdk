@@ -1,6 +1,6 @@
 # Publish NPM packages
 
-## 需要替换的地址有
+## core-sdk
 
 1. INIT_CODE_HASH
 `src/constants/legacy.ts`. 否则在生成LP Pair地址的地方会出错，My Positions里会是空的，不会显示已经创建的pair

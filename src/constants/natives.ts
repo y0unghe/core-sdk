@@ -20,7 +20,7 @@ import {
   Shibarium,
   Zeta,
   X1,
-  Shardeum
+  Shardeum,
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -71,5 +71,6 @@ export const NATIVE: NativeMap = {
   [ChainId.SCROLL_SEPOLIA]: Ether.onChain(ChainId.SCROLL_SEPOLIA),
   [ChainId.BLAST_TESTNET]: Ether.onChain(ChainId.BLAST_TESTNET),
   [ChainId.TAIKO_TESTNET]: Ether.onChain(ChainId.TAIKO_TESTNET),
-  [ChainId.SHARDEUM_SPHINX]: Shardeum.onChain(ChainId.SHARDEUM_SPHINX)
+  [ChainId.SHARDEUM_SPHINX]: Shardeum.onChain(ChainId.SHARDEUM_SPHINX),
+  [ChainId.ZETA]: Zeta.onChain(ChainId.ZETA)
 }

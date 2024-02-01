@@ -90,6 +90,12 @@ export const WETH9: TokenMap = {
     18,
     'WSHM',
     'Wrapped SHM'),
+  [ChainId.ZETA]: new Token(
+    ChainId.ZETA,
+    WETH9_ADDRESS[ChainId.ZETA],
+    18,
+    'WZETA',
+    'Wrapped Zeta'),
 }
 
 // @note WNATIVE Token
@@ -222,6 +228,12 @@ export const WNATIVE: TokenMap = {
     18,
     'WSHM',
     'Wrapped SHM'),
+  [ChainId.ZETA]: new Token(
+    ChainId.ZETA,
+    WETH9_ADDRESS[ChainId.ZETA],
+    18,
+    'WZETA',
+    'Wrapped Zeta'),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -259,6 +271,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.SHARDEUM_SPHINX]: new Token(
     ChainId.SHARDEUM_SPHINX,
     SUSHI_ADDRESS[ChainId.SHARDEUM_SPHINX],
+    18,
+    'MOCHA',
+    'MochaToken'),
+  [ChainId.ZETA]: new Token(
+    ChainId.ZETA,
+    SUSHI_ADDRESS[ChainId.ZETA],
     18,
     'MOCHA',
     'MochaToken'),

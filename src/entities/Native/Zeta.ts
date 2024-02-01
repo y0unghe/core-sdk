@@ -6,7 +6,7 @@ import invariant from 'tiny-invariant'
 
 export class Zeta extends NativeCurrency {
     protected constructor(chainId: number) {
-        super(chainId, 18, 'aZETA', 'ZetaChain')
+        super(chainId, 18, 'ZETA', 'Zeta')
     }
 
     public get wrapped(): Token {

@@ -82,7 +82,12 @@ export const WETH9: TokenMap = {
     'Wrapped Ether'
   ),
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.BLAST_TESTNET]: new Token(ChainId.BLAST_TESTNET, WETH9_ADDRESS[ChainId.BLAST_TESTNET], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.BLAST_TESTNET]: new Token(
+    ChainId.BLAST_TESTNET,
+    WETH9_ADDRESS[ChainId.BLAST_TESTNET],
+    18,
+    'WETH',
+    'Wrapped Ether'),
   [ChainId.TAIKO_TESTNET]: new Token(ChainId.TAIKO_TESTNET, WETH9_ADDRESS[ChainId.TAIKO_TESTNET], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.SHARDEUM_SPHINX]: new Token(
     ChainId.SHARDEUM_SPHINX,
@@ -266,7 +271,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MANTA_TESTNET]: new Token(ChainId.MANTA_TESTNET, SUSHI_ADDRESS[ChainId.MANTA_TESTNET], 18, 'MOCHA', 'MochaToken'),
   [ChainId.MANTA]: new Token(ChainId.MANTA, SUSHI_ADDRESS[ChainId.MANTA], 18, 'MOCHA', 'MochaToken'),
   [ChainId.X1_TESTNET]: new Token(ChainId.X1_TESTNET, SUSHI_ADDRESS[ChainId.X1_TESTNET], 18, 'MOCHA', 'MochaToken'),
-  [ChainId.BLAST_TESTNET]: new Token(ChainId.BLAST_TESTNET, SUSHI_ADDRESS[ChainId.BLAST_TESTNET], 18, 'MOCHA', 'MochaToken'),
+  [ChainId.BLAST_TESTNET]: new Token(
+    ChainId.BLAST_TESTNET,
+    SUSHI_ADDRESS[ChainId.BLAST_TESTNET],
+    18,
+    'MOCHA',
+    'MochaToken'),
   [ChainId.TAIKO_TESTNET]: new Token(ChainId.TAIKO_TESTNET, SUSHI_ADDRESS[ChainId.TAIKO_TESTNET], 18, 'MOCHA', 'MochaToken'),
   [ChainId.SHARDEUM_SPHINX]: new Token(
     ChainId.SHARDEUM_SPHINX,

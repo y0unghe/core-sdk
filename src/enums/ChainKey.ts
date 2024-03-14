@@ -45,5 +45,7 @@ export enum ChainKey {
   BLAST_TESTNET = 'blast-testnet',
   TAIKO_TESTNET = 'taiko-testnet',
   SHARDEUM_SPHINX = 'shardeum-sphinx',
-  ZETA = 'zeta'
+  ZETA = 'zeta',
+  MERLIN_TESTNET = 'merlin-testnet',
+  MERLIN = 'merlin'
 }

@@ -21,6 +21,7 @@ import {
   Zeta,
   X1,
   Shardeum,
+  Merlin
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -72,5 +73,6 @@ export const NATIVE: NativeMap = {
   [ChainId.BLAST_TESTNET]: Ether.onChain(ChainId.BLAST_TESTNET),
   [ChainId.TAIKO_TESTNET]: Ether.onChain(ChainId.TAIKO_TESTNET),
   [ChainId.SHARDEUM_SPHINX]: Shardeum.onChain(ChainId.SHARDEUM_SPHINX),
-  [ChainId.ZETA]: Zeta.onChain(ChainId.ZETA)
+  [ChainId.ZETA]: Zeta.onChain(ChainId.ZETA),
+  [ChainId.MERLIN_TESTNET]: Merlin.onChain(ChainId.MERLIN_TESTNET)
 }

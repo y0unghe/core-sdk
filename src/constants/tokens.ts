@@ -101,6 +101,12 @@ export const WETH9: TokenMap = {
     18,
     'WZETA',
     'Wrapped Zeta'),
+  [ChainId.MERLIN_TESTNET]: new Token(
+    ChainId.MERLIN_TESTNET,
+    WETH9_ADDRESS[ChainId.MERLIN_TESTNET],
+    18,
+    'WBTC',
+    'Wrapped BTC'),
 }
 
 // @note WNATIVE Token
@@ -239,6 +245,12 @@ export const WNATIVE: TokenMap = {
     18,
     'WZETA',
     'Wrapped Zeta'),
+  [ChainId.MERLIN_TESTNET]: new Token(
+    ChainId.MERLIN_TESTNET,
+    WETH9_ADDRESS[ChainId.MERLIN_TESTNET],
+    18,
+    'WBTC',
+    'Wrapped BTC'),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -290,4 +302,10 @@ export const SUSHI: ChainTokenMap = {
     18,
     'MOCHA',
     'MochaToken'),
+  [ChainId.MERLIN_TESTNET]: new Token(
+    ChainId.MERLIN_TESTNET,
+    SUSHI_ADDRESS[ChainId.MERLIN_TESTNET],
+    18,
+    'MAGIC',
+    'MagicToken'),
 }

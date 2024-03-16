@@ -21,3 +21,4 @@ export { Boba } from './Boba'
 export { Zeta } from './Zeta'
 export { X1 } from "./X1"
 export { Shardeum } from './Shardeum'
+export { Merlin } from './Merlin'

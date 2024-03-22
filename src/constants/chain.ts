@@ -49,5 +49,6 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.TAIKO_TESTNET]: ChainKey.TAIKO_TESTNET,
   [ChainId.SHARDEUM_SPHINX]: ChainKey.SHARDEUM_SPHINX,
   [ChainId.ZETA]: ChainKey.ZETA,
-  [ChainId.MERLIN_TESTNET]: ChainKey.MERLIN_TESTNET
+  [ChainId.MERLIN_TESTNET]: ChainKey.MERLIN_TESTNET,
+  [ChainId.MERLIN]: ChainKey.MERLIN
 }

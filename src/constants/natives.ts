@@ -74,5 +74,6 @@ export const NATIVE: NativeMap = {
   [ChainId.TAIKO_TESTNET]: Ether.onChain(ChainId.TAIKO_TESTNET),
   [ChainId.SHARDEUM_SPHINX]: Shardeum.onChain(ChainId.SHARDEUM_SPHINX),
   [ChainId.ZETA]: Zeta.onChain(ChainId.ZETA),
-  [ChainId.MERLIN_TESTNET]: Merlin.onChain(ChainId.MERLIN_TESTNET)
+  [ChainId.MERLIN_TESTNET]: Merlin.onChain(ChainId.MERLIN_TESTNET),
+  [ChainId.MERLIN]: Merlin.onChain(ChainId.MERLIN)
 }

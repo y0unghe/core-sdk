@@ -48,5 +48,6 @@ export enum ChainId {
   SHARDEUM_SPHINX = 8082,
   ZETA = 7000,
   MERLIN_TESTNET = 686868,
-  MERLIN = 4200
+  MERLIN = 4200,
+  XLAYER = 196
 }

@@ -113,6 +113,12 @@ export const WETH9: TokenMap = {
     18,
     'WBTC',
     'Wrapped BTC'),
+  [ChainId.XLAYER]: new Token(
+    ChainId.XLAYER,
+    WETH9_ADDRESS[ChainId.XLAYER],
+    18,
+    'WOKB',
+    'Wrapped OKB'),
 }
 
 // @note WNATIVE Token
@@ -263,6 +269,12 @@ export const WNATIVE: TokenMap = {
     18,
     'WBTC',
     'Wrapped BTC'),
+  [ChainId.XLAYER]: new Token(
+    ChainId.XLAYER,
+    WETH9_ADDRESS[ChainId.XLAYER],
+    18,
+    'WOKB',
+    'Wrapped OKB'),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -326,4 +338,10 @@ export const SUSHI: ChainTokenMap = {
     18,
     'MAGIC',
     'Magicswap'),
+  [ChainId.XLAYER]: new Token(
+    ChainId.XLAYER,
+    SUSHI_ADDRESS[ChainId.XLAYER],
+    18,
+    'MOCHA',
+    'MochaToken'),
 }

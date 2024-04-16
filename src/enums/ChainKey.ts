@@ -47,5 +47,6 @@ export enum ChainKey {
   SHARDEUM_SPHINX = 'shardeum-sphinx',
   ZETA = 'zeta',
   MERLIN_TESTNET = 'merlin-testnet',
-  MERLIN = 'merlin'
+  MERLIN = 'merlin',
+  XLAYER = 'xlayer'
 }

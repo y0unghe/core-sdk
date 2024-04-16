@@ -21,7 +21,8 @@ import {
   Zeta,
   X1,
   Shardeum,
-  Merlin
+  Merlin,
+  XLayer
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -75,5 +76,6 @@ export const NATIVE: NativeMap = {
   [ChainId.SHARDEUM_SPHINX]: Shardeum.onChain(ChainId.SHARDEUM_SPHINX),
   [ChainId.ZETA]: Zeta.onChain(ChainId.ZETA),
   [ChainId.MERLIN_TESTNET]: Merlin.onChain(ChainId.MERLIN_TESTNET),
-  [ChainId.MERLIN]: Merlin.onChain(ChainId.MERLIN)
+  [ChainId.MERLIN]: Merlin.onChain(ChainId.MERLIN),
+  [ChainId.XLAYER]: XLayer.onChain(ChainId.XLAYER)
 }

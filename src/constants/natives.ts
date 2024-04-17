@@ -77,5 +77,6 @@ export const NATIVE: NativeMap = {
   [ChainId.ZETA]: Zeta.onChain(ChainId.ZETA),
   [ChainId.MERLIN_TESTNET]: Merlin.onChain(ChainId.MERLIN_TESTNET),
   [ChainId.MERLIN]: Merlin.onChain(ChainId.MERLIN),
-  [ChainId.XLAYER]: XLayer.onChain(ChainId.XLAYER)
+  [ChainId.XLAYER]: XLayer.onChain(ChainId.XLAYER),
+  [ChainId.B2]: Merlin.onChain(ChainId.B2)
 }

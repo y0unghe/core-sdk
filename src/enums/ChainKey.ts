@@ -48,5 +48,6 @@ export enum ChainKey {
   ZETA = 'zeta',
   MERLIN_TESTNET = 'merlin-testnet',
   MERLIN = 'merlin',
-  XLAYER = 'xlayer'
+  XLAYER = 'xlayer',
+  B2 = 'B2'
 }

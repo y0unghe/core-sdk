@@ -113,6 +113,12 @@ export const WETH9: TokenMap = {
     18,
     'WBTC',
     'Wrapped BTC'),
+  [ChainId.B2]: new Token(
+    ChainId.B2,
+    WETH9_ADDRESS[ChainId.B2],
+    18,
+    'WBTC',
+    'Wrapped BTC'),
   [ChainId.XLAYER]: new Token(
     ChainId.XLAYER,
     WETH9_ADDRESS[ChainId.XLAYER],
@@ -266,6 +272,12 @@ export const WNATIVE: TokenMap = {
   [ChainId.MERLIN]: new Token(
     ChainId.MERLIN,
     WETH9_ADDRESS[ChainId.MERLIN],
+    18,
+    'WBTC',
+    'Wrapped BTC'),
+  [ChainId.B2]: new Token(
+    ChainId.B2,
+    WETH9_ADDRESS[ChainId.B2],
     18,
     'WBTC',
     'Wrapped BTC'),

@@ -49,5 +49,6 @@ export enum ChainId {
   ZETA = 7000,
   MERLIN_TESTNET = 686868,
   MERLIN = 4200,
-  XLAYER = 196
+  XLAYER = 196,
+  B2 = 223
 }

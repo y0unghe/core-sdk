@@ -1,5 +1,6 @@
 export enum ChainId {
   ETHEREUM = 1,
+  SEPOLIA = 11155111,
   ROPSTEN = 3,
   RINKEBY = 4,
   GÖRLI = 5,

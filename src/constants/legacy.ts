@@ -45,5 +45,6 @@ export const INIT_CODE_HASH: { [chainId: number]: string } = {
   [ChainId.MERLIN_TESTNET]: '0x9c736bd41c29919e4e96b726a12ca390fe6bec6137543265e125b6d0a9652953',
   [ChainId.MERLIN]: '0x4e4a3b1a2e5eaf62abdf1c95ac3bb89267be2d46e2c22ec3b6a965653b048a6e',
   [ChainId.XLAYER]: '0xe326d1fa68a1afe759778319821d16c349cc0503318bebed65cb0b0cdc46b5a8',
-  [ChainId.B2]: '0x4e4a3b1a2e5eaf62abdf1c95ac3bb89267be2d46e2c22ec3b6a965653b048a6e'
+  [ChainId.B2]: '0x4e4a3b1a2e5eaf62abdf1c95ac3bb89267be2d46e2c22ec3b6a965653b048a6e',
+  [ChainId.SEPOLIA]: '0x0f5678c221bcbb7464c24823aaac19c956f5b2633cfe168299ea0a687da9b910'
 }

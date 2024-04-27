@@ -27,6 +27,8 @@ export const USDC: TokenMap = {
   [ChainId.KAVA]: new Token(ChainId.KAVA, USDC_ADDRESS[ChainId.KAVA], 6, 'USDC', 'USD Coin'),
   [ChainId.METIS]: new Token(ChainId.METIS, USDC_ADDRESS[ChainId.METIS], 6, 'USDC', 'USD Coin'),
   [ChainId.ARBITRUM_NOVA]: new Token(ChainId.ARBITRUM_NOVA, USDC_ADDRESS[ChainId.ARBITRUM_NOVA], 6, 'USDC', 'USD Coin'),
+  [ChainId.SEPOLIA]: new Token(ChainId.SEPOLIA, USDC_ADDRESS[ChainId.SEPOLIA], 6, 'USDC', 'USD Coin'),
+
 }
 
 export const USD: TokenMap = {
@@ -125,6 +127,13 @@ export const WETH9: TokenMap = {
     18,
     'WOKB',
     'Wrapped OKB'),
+  [ChainId.SEPOLIA]: new Token(
+    ChainId.SEPOLIA,
+    WETH9_ADDRESS[ChainId.SEPOLIA],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
 }
 
 // @note WNATIVE Token
@@ -287,6 +296,13 @@ export const WNATIVE: TokenMap = {
     18,
     'WOKB',
     'Wrapped OKB'),
+  [ChainId.SEPOLIA]: new Token(
+    ChainId.SEPOLIA,
+    WETH9_ADDRESS[ChainId.SEPOLIA],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -353,6 +369,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.XLAYER]: new Token(
     ChainId.XLAYER,
     SUSHI_ADDRESS[ChainId.XLAYER],
+    18,
+    'MOCHA',
+    'MochaToken'),
+  [ChainId.SEPOLIA]: new Token(
+    ChainId.SEPOLIA,
+    SUSHI_ADDRESS[ChainId.SEPOLIA],
     18,
     'MOCHA',
     'MochaToken'),

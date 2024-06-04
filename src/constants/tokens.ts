@@ -127,6 +127,12 @@ export const WETH9: TokenMap = {
     18,
     'WOKB',
     'Wrapped OKB'),
+  [ChainId.FHENIX_TESTNET]: new Token(
+    ChainId.FHENIX_TESTNET,
+    WETH9_ADDRESS[ChainId.FHENIX_TESTNET],
+    18,
+    'WFHE',
+    'Wrapped FHE'),
   [ChainId.SEPOLIA]: new Token(
     ChainId.SEPOLIA,
     WETH9_ADDRESS[ChainId.SEPOLIA],
@@ -296,6 +302,12 @@ export const WNATIVE: TokenMap = {
     18,
     'WOKB',
     'Wrapped OKB'),
+  [ChainId.FHENIX_TESTNET]: new Token(
+    ChainId.FHENIX_TESTNET,
+    WETH9_ADDRESS[ChainId.FHENIX_TESTNET],
+    18,
+    'WFHE',
+    'Wrapped FHE'),
   [ChainId.SEPOLIA]: new Token(
     ChainId.SEPOLIA,
     WETH9_ADDRESS[ChainId.SEPOLIA],
@@ -378,4 +390,10 @@ export const SUSHI: ChainTokenMap = {
     18,
     'MOCHA',
     'MochaToken'),
+  [ChainId.FHENIX_TESTNET]: new Token(
+    ChainId.FHENIX_TESTNET,
+    SUSHI_ADDRESS[ChainId.FHENIX_TESTNET],
+    18,
+    'COCO',
+    'CocoToken'),
 }

@@ -51,5 +51,6 @@ export enum ChainId {
   MERLIN_TESTNET = 686868,
   MERLIN = 4200,
   XLAYER = 196,
-  B2 = 223
+  B2 = 223,
+  FHENIX_TESTNET = 8008135
 }

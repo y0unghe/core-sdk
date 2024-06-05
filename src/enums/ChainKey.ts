@@ -53,5 +53,6 @@ export enum ChainKey {
   SEPOLIA = 'sepolia',
   FHENIX_TESTNET = 'fhenix-testnet',
   MINT_TESTNET = 'mint-testnet',
-  PLUME_TESTNET = 'plume-testnet'
+  PLUME_TESTNET = 'plume-testnet',
+  BITLAYER_TESTNET = 'bitlayer-testnet'
 }

@@ -121,6 +121,12 @@ export const WETH9: TokenMap = {
     18,
     'WBTC',
     'Wrapped BTC'),
+  [ChainId.BITLAYER_TESTNET]: new Token(
+    ChainId.BITLAYER_TESTNET,
+    WETH9_ADDRESS[ChainId.BITLAYER_TESTNET],
+    18,
+    'WBTC',
+    'Wrapped BTC'),
   [ChainId.XLAYER]: new Token(
     ChainId.XLAYER,
     WETH9_ADDRESS[ChainId.XLAYER],
@@ -343,6 +349,12 @@ export const WNATIVE: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.BITLAYER_TESTNET]: new Token(
+    ChainId.BITLAYER_TESTNET,
+    WETH9_ADDRESS[ChainId.BITLAYER_TESTNET],
+    18,
+    'WBTC',
+    'Wrapped BTC'),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -433,6 +445,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.PLUME_TESTNET]: new Token(
     ChainId.PLUME_TESTNET,
     SUSHI_ADDRESS[ChainId.PLUME_TESTNET],
+    18,
+    'COCO',
+    'CocoToken'),
+  [ChainId.BITLAYER_TESTNET]: new Token(
+    ChainId.BITLAYER_TESTNET,
+    SUSHI_ADDRESS[ChainId.BITLAYER_TESTNET],
     18,
     'COCO',
     'CocoToken'),

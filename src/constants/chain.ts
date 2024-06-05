@@ -54,5 +54,6 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.XLAYER]: ChainKey.XLAYER,
   [ChainId.B2]: ChainKey.B2,
   [ChainId.SEPOLIA]: ChainKey.SEPOLIA,
-  [ChainId.FHENIX_TESTNET]: ChainKey.FHENIX_TESTNET
+  [ChainId.FHENIX_TESTNET]: ChainKey.FHENIX_TESTNET,
+  [ChainId.MINT_TESTNET]: ChainKey.MINT_TESTNET
 }

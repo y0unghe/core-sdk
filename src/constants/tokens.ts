@@ -140,6 +140,13 @@ export const WETH9: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.MINT_TESTNET]: new Token(
+    ChainId.MINT_TESTNET,
+    WETH9_ADDRESS[ChainId.MINT_TESTNET],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
 }
 
 // @note WNATIVE Token
@@ -315,6 +322,13 @@ export const WNATIVE: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.MINT_TESTNET]: new Token(
+    ChainId.MINT_TESTNET,
+    WETH9_ADDRESS[ChainId.MINT_TESTNET],
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -393,6 +407,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.FHENIX_TESTNET]: new Token(
     ChainId.FHENIX_TESTNET,
     SUSHI_ADDRESS[ChainId.FHENIX_TESTNET],
+    18,
+    'COCO',
+    'CocoToken'),
+  [ChainId.MINT_TESTNET]: new Token(
+    ChainId.MINT_TESTNET,
+    SUSHI_ADDRESS[ChainId.MINT_TESTNET],
     18,
     'COCO',
     'CocoToken'),

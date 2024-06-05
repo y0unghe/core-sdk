@@ -51,5 +51,6 @@ export enum ChainKey {
   XLAYER = 'xlayer',
   B2 = 'B2',
   SEPOLIA = 'sepolia',
-  FHENIX_TESTNET = 'fhenix-testnet'
+  FHENIX_TESTNET = 'fhenix-testnet',
+  MINT_TESTNET = 'mint-testnet'
 }

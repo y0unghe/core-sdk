@@ -57,5 +57,6 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.FHENIX_TESTNET]: ChainKey.FHENIX_TESTNET,
   [ChainId.MINT_TESTNET]: ChainKey.MINT_TESTNET,
   [ChainId.PLUME_TESTNET]: ChainKey.PLUME_TESTNET,
-  [ChainId.BITLAYER_TESTNET]: ChainKey.BITLAYER_TESTNET
+  [ChainId.BITLAYER_TESTNET]: ChainKey.BITLAYER_TESTNET,
+  [ChainId.ZIRCUIT_Testnet]: ChainKey.ZIRCUIT_Testnet
 }

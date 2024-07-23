@@ -39,6 +39,7 @@ export const USD: TokenMap = {
 // @note WETH9 Token
 export const WETH9: TokenMap = {
   [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, WETH9_ADDRESS[ChainId.ETHEREUM], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.ZIRCUIT_Testnet]: new Token(ChainId.ZIRCUIT_Testnet, WETH9_ADDRESS[ChainId.ZIRCUIT_Testnet], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MANTA_TESTNET]: new Token(ChainId.MANTA_TESTNET, WETH9_ADDRESS[ChainId.MANTA_TESTNET], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.MANTA]: new Token(ChainId.MANTA, WETH9_ADDRESS[ChainId.MANTA], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, WETH9_ADDRESS[ChainId.ROPSTEN], 18, 'WETH', 'Wrapped Ether'),
@@ -165,6 +166,7 @@ export const WETH9: TokenMap = {
 // @note WNATIVE Token
 export const WNATIVE: TokenMap = {
   [ChainId.ETHEREUM]: WETH9[ChainId.ETHEREUM],
+  [ChainId.ZIRCUIT_Testnet]: WETH9[ChainId.ZIRCUIT_Testnet],
   [ChainId.TAIKO_TESTNET]: WETH9[ChainId.TAIKO_TESTNET],
   [ChainId.BLAST_TESTNET]: WETH9[ChainId.BLAST_TESTNET],
   [ChainId.ROPSTEN]: WETH9[ChainId.ROPSTEN],
@@ -451,6 +453,12 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.BITLAYER_TESTNET]: new Token(
     ChainId.BITLAYER_TESTNET,
     SUSHI_ADDRESS[ChainId.BITLAYER_TESTNET],
+    18,
+    'COCO',
+    'CocoToken'),
+  [ChainId.ZIRCUIT_Testnet]: new Token(
+    ChainId.ZIRCUIT_Testnet,
+    SUSHI_ADDRESS[ChainId.ZIRCUIT_Testnet],
     18,
     'COCO',
     'CocoToken'),

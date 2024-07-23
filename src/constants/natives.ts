@@ -84,6 +84,6 @@ export const NATIVE: NativeMap = {
   [ChainId.FHENIX_TESTNET]: Fhenix.onChain(ChainId.FHENIX_TESTNET),
   [ChainId.MINT_TESTNET]: Ether.onChain(ChainId.MINT_TESTNET),
   [ChainId.PLUME_TESTNET]: Ether.onChain(ChainId.PLUME_TESTNET),
-  [ChainId.BITLAYER_TESTNET]: Merlin.onChain(ChainId.BITLAYER_TESTNET)
-
+  [ChainId.BITLAYER_TESTNET]: Merlin.onChain(ChainId.BITLAYER_TESTNET),
+  [ChainId.ZIRCUIT_Testnet]: Ether.onChain(ChainId.ZIRCUIT_Testnet)
 }

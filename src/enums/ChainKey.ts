@@ -54,5 +54,6 @@ export enum ChainKey {
   FHENIX_TESTNET = 'fhenix-testnet',
   MINT_TESTNET = 'mint-testnet',
   PLUME_TESTNET = 'plume-testnet',
-  BITLAYER_TESTNET = 'bitlayer-testnet'
+  BITLAYER_TESTNET = 'bitlayer-testnet',
+  ZIRCUIT_Testnet = 'zircuit-testnet'
 }

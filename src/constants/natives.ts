@@ -23,7 +23,8 @@ import {
   Shardeum,
   Merlin,
   XLayer,
-  Fhenix
+  Fhenix,
+  Doge
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -85,5 +86,6 @@ export const NATIVE: NativeMap = {
   [ChainId.MINT_TESTNET]: Ether.onChain(ChainId.MINT_TESTNET),
   [ChainId.PLUME_TESTNET]: Ether.onChain(ChainId.PLUME_TESTNET),
   [ChainId.BITLAYER_TESTNET]: Merlin.onChain(ChainId.BITLAYER_TESTNET),
-  [ChainId.ZIRCUIT_Testnet]: Ether.onChain(ChainId.ZIRCUIT_Testnet)
+  [ChainId.ZIRCUIT_Testnet]: Ether.onChain(ChainId.ZIRCUIT_Testnet),
+  [ChainId.LAIKA]: Doge.onChain(ChainId.LAIKA)
 }

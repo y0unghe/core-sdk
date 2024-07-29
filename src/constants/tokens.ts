@@ -161,6 +161,13 @@ export const WETH9: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.LAIKA]: new Token(
+    ChainId.LAIKA,
+    WETH9_ADDRESS[ChainId.LAIKA],
+    18,
+    'WDOGE',
+    'Wrapped Doge'
+  ),
 }
 
 // @note WNATIVE Token
@@ -357,6 +364,13 @@ export const WNATIVE: TokenMap = {
     18,
     'WBTC',
     'Wrapped BTC'),
+  [ChainId.LAIKA]: new Token(
+    ChainId.LAIKA,
+    WETH9_ADDRESS[ChainId.LAIKA],
+    18,
+    'WDOGE',
+    'Wrapped Doge'
+  ),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -461,5 +475,5 @@ export const SUSHI: ChainTokenMap = {
     SUSHI_ADDRESS[ChainId.ZIRCUIT_Testnet],
     18,
     'COCO',
-    'CocoToken'),
+    'CocoToken')
 }

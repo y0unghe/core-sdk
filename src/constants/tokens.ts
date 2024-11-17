@@ -168,6 +168,13 @@ export const WETH9: TokenMap = {
     'WDOGE',
     'Wrapped Doge'
   ),
+  [ChainId.DUCKCHAIN]: new Token(
+    ChainId.DUCKCHAIN,
+    WETH9_ADDRESS[ChainId.DUCKCHAIN],
+    18,
+    'WTON',
+    'Wrapped Ton'
+  ),
 }
 
 // @note WNATIVE Token
@@ -370,6 +377,13 @@ export const WNATIVE: TokenMap = {
     18,
     'WDOGE',
     'Wrapped Doge'
+  ),
+  [ChainId.DUCKCHAIN]: new Token(
+    ChainId.DUCKCHAIN,
+    WETH9_ADDRESS[ChainId.DUCKCHAIN],
+    18,
+    'WTON',
+    'Wrapped Ton'
   ),
 }
 

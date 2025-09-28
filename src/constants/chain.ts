@@ -1,5 +1,5 @@
-import { ChainId } from '../enums'
-import { ChainKey } from '../enums'
+import { ChainId } from "../enums";
+import { ChainKey } from "../enums";
 
 export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.ETHEREUM]: ChainKey.ETHEREUM,
@@ -60,5 +60,6 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.BITLAYER_TESTNET]: ChainKey.BITLAYER_TESTNET,
   [ChainId.ZIRCUIT_Testnet]: ChainKey.ZIRCUIT_Testnet,
   [ChainId.LAIKA]: ChainKey.LAIKA,
-  [ChainId.DUCKCHAIN]: ChainKey.DUCKCHAIN
-}
+  [ChainId.DUCKCHAIN]: ChainKey.DUCKCHAIN,
+  [ChainId.PLASMA]: ChainKey.PLASMA,
+};

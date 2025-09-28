@@ -58,5 +58,6 @@ export enum ChainId {
   BITLAYER_TESTNET = 200810,
   ZIRCUIT_Testnet = 48899,
   LAIKA = 6942,
-  DUCKCHAIN = 5545
+  DUCKCHAIN = 5545,
+  PLASMA = 9745,
 }

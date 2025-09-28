@@ -1,9 +1,23 @@
 {
-  "extends": "../../config/tsconfig.json",
-  "include": ["src"],
   "compilerOptions": {
-    "declaration": true,
-    "baseUrl": ".",
-    "rootDir": "src"
-  }
+    "target": "es5",                        // Specify ECMAScript target version
+    "lib": ["dom", "es6"],                  // Specify library files
+    "allowJs": true,                        // Allow JavaScript files to be compiled
+    "checkJs": true,                        // Enable type checking for JavaScript files
+    "jsx": "react",                         // Specify JSX code generation for React
+    "module": "ES2015",                   // Module code generation
+    "moduleResolution": "node",             // Module resolution strategy
+    "outDir": "./dist",                     // Redirect output structure to the 'dist' folder
+    "rootDir": "./src",                     // Specify the root directory of input files
+    "strict": true,                         // Enable all strict type-checking options
+    "esModuleInterop": true,                // Allow default imports from modules with no default export
+    "skipLibCheck": true,                   // Skip library file type checking
+    "forceConsistentCasingInFileNames": true // Enforce consistent file naming case
+  },
+  "include": [
+    "src/**/*"                               // Specify files or directories to include in the compilation
+  ],
+  "exclude": [
+    "node_modules"                           // Exclude 'node_modules' from the compilation
+  ]
 }

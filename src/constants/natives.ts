@@ -25,11 +25,12 @@ import {
   XLayer,
   Fhenix,
   Doge,
-  Ton
-} from '../entities/Native'
+  Ton,
+  Plasma,
+} from "../entities/Native";
 
-import { ChainId } from '../enums'
-import { NativeMap } from '../types'
+import { ChainId } from "../enums";
+import { NativeMap } from "../types";
 
 export const NATIVE: NativeMap = {
   [ChainId.ETHEREUM]: Ether.onChain(ChainId.ETHEREUM),
@@ -89,5 +90,6 @@ export const NATIVE: NativeMap = {
   [ChainId.BITLAYER_TESTNET]: Merlin.onChain(ChainId.BITLAYER_TESTNET),
   [ChainId.ZIRCUIT_Testnet]: Ether.onChain(ChainId.ZIRCUIT_Testnet),
   [ChainId.LAIKA]: Doge.onChain(ChainId.LAIKA),
-  [ChainId.DUCKCHAIN]: Ton.onChain(ChainId.DUCKCHAIN)
-}
+  [ChainId.DUCKCHAIN]: Ton.onChain(ChainId.DUCKCHAIN),
+  [ChainId.PLASMA]: Plasma.onChain(ChainId.PLASMA),
+};
